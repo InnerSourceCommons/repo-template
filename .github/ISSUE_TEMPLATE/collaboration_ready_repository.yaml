@@ -29,16 +29,13 @@ body:
       [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners),
       and [CODE_OF_CONDUCT](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project)
     options:
-      - label: "Create an informative README.md"
-      - label: "Add a LICENSE file"
+      - label: "Create a Detailed README.md"
+      - label: "Create an InnerSource LICENSE file, if necessary"
       - label: "Include CONTRIBUTING.md"
       - label: "Set up CODEOWNERS"
       - label: "Establish a CODE_OF_CONDUCT.md"
-- type: input
-  id: license
-  attributes:
-    label: "Which license did you choose? (Please specify)"
-    placeholder: "Enter the license name"
+      - label: "Add SECURITY.md guidelines"
+      - label: "Include a SUPPORT.md file"
 - type: checkboxes
   id: automation-checks
   attributes:
